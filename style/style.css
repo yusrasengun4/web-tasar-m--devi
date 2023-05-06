@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+
+}
+#logo{
+    font-size: 30px;
+    line-height: 100px;
+    color:rgb(87, 6, 87);
+    float:left;
+}
+#menu{
+    height:100px;
+    padding: 0 20px;
+    background-color: rgb(232, 176, 223);
+    
+}
+nav{
+    float: right;
+    line-height: 100px;
+}
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color:rgb(63, 22, 101);
+}
+nav a:hover{
+    text-decoration: underline;
+}
