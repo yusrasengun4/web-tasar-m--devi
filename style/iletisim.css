@@ -1,9 +1,10 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     outline: none;
-    border: none;
+    
     text-decoration: none;
     text-transform: capitalize;
     transition: 0.2s ease;
@@ -28,11 +29,25 @@ nav{
 nav a:link{
     text-decoration: none;
     margin-right: 25px;
-    color: blueviolet;
+    color:rgb(63, 22, 101);
 }
 nav a:hover{
     text-decoration: underline;
 }
+#h3iletisim{
+    font-size: 70px;
+    color:rgb(202, 106, 203);
+   
+}
+#iletisim{
+    text-align: center;
+    padding: 50px;
+    height: auto;
+
+   
+}
 body{
     background-color: rgb(231, 213, 247);
 }
+    
+

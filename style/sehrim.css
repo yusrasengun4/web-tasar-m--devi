@@ -28,11 +28,23 @@ nav{
 nav a:link{
     text-decoration: none;
     margin-right: 25px;
-    color: blueviolet;
+    color:rgb(63, 22, 101) ;
 }
 nav a:hover{
     text-decoration: underline;
 }
 body{
     background-color: rgb(231, 213, 247);
+}
+h1{
+    text-align: center;
+    color:rgb(63, 22, 101);
+    height: 40px;
+    width: auto;
+margin-top: 10px
+}
+img{
+    padding-left: 300px;
+    padding-right: 300px;
+    height: 250px;
 }

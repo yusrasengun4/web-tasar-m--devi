@@ -5,7 +5,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
+   
     transition: 0.2s ease;
 
 }
@@ -28,7 +28,7 @@ nav{
 nav a:link{
     text-decoration: none;
     margin-right: 25px;
-    color: blueviolet;
+    color:rgb(63, 22, 101);
 }
 nav a:hover{
     text-decoration: underline;
@@ -36,3 +36,37 @@ nav a:hover{
 body{
     background-color: rgb(231, 213, 247);
 }
+
+h1{
+    text-align: center;
+    color:rgb(63, 22, 101);
+    height: 40px;
+    width: auto;
+
+}
+h2{
+    color:rgb(63, 22, 101);
+    margin-top: 20px;
+    padding-left: 100px;
+}
+aside {
+    width: 30%;
+    padding-left: 70px;
+    margin-left: 70px;
+    margin-right: 100px;
+
+    float: right;
+    font-style: italic;
+    background-color: rgb(232, 176, 223);
+  }
+ p{
+    padding-left: 100px;
+    height: 20px;
+ }
+ h3{
+    color:rgb(63, 22, 101);
+    width: 30px;
+ }
+ .universite-p{
+    padding:  10px;
+ }
