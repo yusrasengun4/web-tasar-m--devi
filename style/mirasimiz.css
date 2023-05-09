@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
-    border: none;
+    
     text-decoration: none;
     text-transform: capitalize;
     transition: 0.2s ease;
@@ -28,32 +28,24 @@ nav{
 nav a:link{
     text-decoration: none;
     margin-right: 25px;
-    color:rgb(63, 22, 101) ;
+    color:rgb(63, 22, 101);
 }
 nav a:hover{
     text-decoration: underline;
 }
+#h3iletisim{
+    font-size: 70px;
+    color:rgb(202, 106, 203);
+   
+}
+#iletisim{
+    text-align: center;
+    padding: 50px;
+    height: auto;
+
+   
+}
 body{
     background-color: rgb(231, 213, 247);
 }
-h1{
-    text-align: center;
-    color:rgb(63, 22, 101);
-    height: 40px;
-    width: auto;
-margin-top: 10px
-}
-img{
-    padding-left: 300px;
-    padding-right: 300px;
-    height: 400px;
-    margin-top: 40px;
-}
-h2{
-    color:rgb(63, 22, 101);   
-}
-h3{
-    color:rgb(63, 22, 101);  
-    text-decoration: underline;
-   
-}
+    

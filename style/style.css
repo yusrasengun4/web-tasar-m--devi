@@ -21,18 +21,3 @@
     background-color: rgb(232, 176, 223);
     
 }
-nav{
-    float: right;
-    line-height: 100px;
-}
-nav a:link{
-    text-decoration: none;
-    margin-right: 25px;
-    color: blueviolet;
-}
-nav a:hover{
-    text-decoration: underline;
-}
-body{
-    background-color: rgb(231, 213, 247);
-}
