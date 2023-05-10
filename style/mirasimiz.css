@@ -48,4 +48,51 @@ nav a:hover{
 body{
     background-color: rgb(231, 213, 247);
 }
+.home{
+    min-height: 100vh;
+    background: url(../img/hk.jpg)
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+
     
+
+
+}    
+.home .content{
+    max-width:60rem;
+}
+.home .content h3{
+    font-size:4rem;
+    text-transform: none;
+    color: rgb(148, 106, 52);
+}
+.heading{
+    color:blueviolet;
+   
+    margin-bottom: 3.5rem;
+    border-bottom: 0.1rem solid #fff;
+    margin-top: 3.5rem;
+    font-size: 4rem;
+}
+.heading span{
+  
+    color:#fff;
+}
+.about .content{
+    flex:1 1 45rem;
+}
+.about .content p{
+    font-size: 2rem;
+    color: rgb(63, 22, 101);
+}
+
+.tarihce .content{
+    flex:1 1 45rem;
+}
+.tarihce .content p{
+    font-size: 2rem;
+    color: rgb(63, 22, 101);
+}
