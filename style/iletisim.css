@@ -83,3 +83,43 @@ padding: 30px;
     width:100%;
     height:37px;
  }
+ .wrapper .form .input_field .custom_select{
+    position:relative;
+    width: 100%;
+    height: 37px;
+ }
+ .wrapper .form .input_field .custom_select select{
+    appearance: none;
+    border: 1px solid rgb(231, 213, 247);
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+
+ }
+ .wrapper .form .input_field p{
+    font-size: 14px;
+    color:rgb(231, 213, 247);
+ }
+.wrapper .form .input_field .check{
+
+position: relative;
+display: block;
+cursor: pointer;
+}
+.wrapper .form .input_field .check input[type="checkbox"]{
+    position:absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+}
+.wrapper .form .input_field .check{
+
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border:0;
+    color:aliceblue;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}

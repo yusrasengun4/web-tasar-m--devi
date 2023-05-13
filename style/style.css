@@ -9,15 +9,20 @@
     transition: 0.2s ease;
 
 }
-#logo{
-    font-size: 30px;
-    line-height: 100px;
-    color:rgb(87, 6, 87);
-    float:left;
+html,body{
+    height: 100%;
+    width: 100%;
 }
-#menu{
-    height:100px;
-    padding: 0 20px;
+.navbar{
     background-color: rgb(232, 176, 223);
-    
+    padding: 1% 0;
+    font-size: 1.2em;
+
+}
+.navbar-brand{
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+.navbar-default .navba-nav li a {
+    color:aliceblue;
 }
