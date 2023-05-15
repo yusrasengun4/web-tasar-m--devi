@@ -10,45 +10,35 @@
     transition: 0.2s ease;
 
 }
-#logo{
-    font-size: 30px;
-    line-height: 100px;
-    color:rgb(87, 6, 87);
-    float:left;
+body{
+    background-color: rgb(231, 213, 247);
 }
-#menu{
-    height:100px;
-    padding: 0 20px;
-    background-color: rgb(232, 176, 223);
-    
-}
-nav{
-    float: right;
-    line-height: 100px;
-}
-nav a:link{
+
+.navbar-collapse li a{
     text-decoration: none;
     margin-right: 25px;
-    color:rgb(63, 22, 101);
+    color:rgb(74, 39, 107);
 }
-nav a:hover{
-    text-decoration: underline;
+.navbar{
+    background-color: rgb(232, 176, 223);
+    padding: 1% 0;
+    font-size: 1.2em;
+
+}
+.navbar-toggler{
+    background-color:  rgb(231, 213, 247);
 }
 
 
 
    
 
-body{
-    background-color: rgb(231, 213, 247);
-    padding: 0 10px;
-}
-    
+
 .wrapper{
 max-width: 500px;
 width: 100%;
 background:  rgb(111, 8, 111); 
-margin: 20px auto;
+margin: 70px auto;
 padding: 30px;
 }
 .wrapper .title{

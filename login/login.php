@@ -1,10 +1,10 @@
 <?php
 if (isset($_POST['onay']))
-if (isset($_POST['adi'], $_POST['soyadi'] )
-&& ($_POST['adi']!='yusra@gmail.com')
-&& ($_POST['soyadi']!='ask')) {
+if (isset($_POST['email'], $_POST['password'] )
+&& ($_POST['email']!='yusra@gmail.com')
+&& ($_POST['password']!='akk')) {
 echo "Kayıt İşleminiz Yapıldı...";
-echo "<b>".$_POST['adi'] . ' ' . $_POST['soyadi']."</b>";
+echo "<b>".$_POST['email'] . ' ' . $_POST['password']."</b>";
 }else{
 echo"Bilgilerinizi Kontrol Edip Tekrar Giriş Yapın.<br>
 Eksik Bilgi Girdiniz...";
