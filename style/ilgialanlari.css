@@ -27,3 +27,46 @@ body{
 .navbar-toggler{
     background-color:  rgb(231, 213, 247);
 }
+h1{
+    color:rgb(74, 39, 107);
+    padding-top: 150px;
+    text-align: center;
+}
+.container{
+    padding-top: 200px;
+}
+
+.btn.dropdown-toggle  {
+   
+    width:150px;
+    text-align:left;
+}
+
+span.caret {
+    position: absolute;
+    left: 90%;
+    top: 45%;
+}
+
+label {
+    padding-top:60px;
+    color: rgb(74, 39, 107);
+}
+
+.form-label {
+    padding-top: 10px;
+    padding-left:0px !important;
+    color: rgb(74, 39, 107);
+}
+
+img {
+   
+    width:140px;
+    height:140px;
+}
+
+
+
+img.track {
+    border: 1px solid #8a8a8a;
+}
