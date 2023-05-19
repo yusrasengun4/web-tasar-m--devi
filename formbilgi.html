@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Gönderilen Veriler:</h2>
+<p>Ad: <span id="nameOutput"></span></p>
+<p>Soyad: <span id="soyadOutput"></span></p>
+<p>Doğum Tarih: <span id="tarihOutput"></span></p>
+<p>Telefon: <span id="telefonOutput"></span></p>
+<p>Adres: <span id="adresOutput"></span></p>
+<p>Çalışma Durumu: <span id="calismaOutput"></span></p>
+<p>Cinsiyet: <span id="cinsiyetOutput"></span></p>
+<p>Email: <span id="emailOutput"></span></p>
+<p>Şifre: <span id="sifreOutput"></span></p>
+
+   
+    
+    
+    
+    
+    
+    
+    <script >
+        
+       
+
+ let params = new URLSearchParams(window.location.search);
+  let ad= params.get("ad");
+  let soyad = params.get("soyad");
+  let tarih = params.get("tarih");
+  let telefon = params.get("telefon");
+  let adres = params.get("adres");
+  let calisma = params.get("calisma");
+  let cinsiyet = params.get("cinsiyet");
+  let email = params.get("email");
+  let sifre = params.get("sifre");
+  
+
+  
+
+  
+
+ 
+  document.getElementById("nameOutput").innerHTML = ad;
+  document.getElementById("soyadOutput").innerHTML = soyad;
+  document.getElementById("tarihOutput").innerHTML = tarih;
+  document.getElementById("telefonOutput").innerHTML = telefon;
+  document.getElementById("adresOutput").innerHTML = adres;
+  document.getElementById("calismaOutput").innerHTML = calisma;
+ document.getElementById("cinsiyetOutput").innerHTML = cinsiyet;
+  document.getElementById("emailOutput").innerHTML = email;
+  document.getElementById("sifreOutput").innerHTML = sifre;
+
+
+
+
+
+
+      </script>
+</body>
+</html>
