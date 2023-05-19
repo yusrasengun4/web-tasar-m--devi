@@ -71,5 +71,19 @@ var regex=/^[a-zA-Z\s]+$/;
   
 }
 }
+document.getElementById("form").addEventListener("submit", function(event) {
+ 
+  var cinsiyet=document.getElementsByName("cinsiyet")[0];
+  event.preventDefault();
+
+
+  
+  window.location.href= "formbilgi.html?ad=" + ad.value +
+                         "&soyad=" + soyad.value +
+                         "&tarih=" +tarih.value+"&telefon=" + telefon.value +"&adres=" + adres.value+"&calisma=" + calisma.value+"&cinsiyet=" + cinsiyet.value+"&email=" + email.value+"&sifre=" + sifre.value;
+                        
+                         
+
+});
  
  
