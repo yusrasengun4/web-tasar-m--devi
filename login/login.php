@@ -1,12 +1,38 @@
 <?php
-if (isset($_POST['onay']))
-if (isset($_POST['email'], $_POST['password'] )
-&& ($_POST['email']!='yusra@gmail.com')
-&& ($_POST['password']!='akk')) {
-echo "Kayıt İşleminiz Yapıldı...";
-echo "<b>".$_POST['email'] . ' ' . $_POST['password']."</b>";
-}else{
-echo"Bilgilerinizi Kontrol Edip Tekrar Giriş Yapın.<br>
-Eksik Bilgi Girdiniz...";
+ob_start();
+$user = 'b221210015@gmail.com.tr';
+$pass='b221210015';
+
+if (isset($_POST['username'])){
+    $username=$_POST['username'];
+    $password=$_POST['password'];
+
+    if($username==$user && $password==$pass){
+      
+        $alert="<script>alert('Hoşgeldiniz') ;</script> ";
+       
+        header("Location:anasayfa.html");
+       
+        
+    }
+    else{
+       
+        header("Location:login.html");
+        echo "Hata,kullanıcı emaili yada şifrenizi kontrol ediniz";
+    }
 }
+if (isset($_POST['username'])){
+    $username=$_POST['username'];
+    $password=$_POST['password'];
+
+    if($password=="")
+
+    echo("Şifre kısmını doldurunuz");
+     else{
+        header("Location:anasayfa.html");
+     }
+
+
+}
+
 ?>
